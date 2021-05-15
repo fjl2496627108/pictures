@@ -1,0 +1,4 @@
+.html[data-night='night'] body {--box-shadow:-10px 0px 10px rgb(242,192,86),   /*左边阴影*/
+            0px -10px 10px rgb(72,209,204),  /*上边阴影*/
+            10px 0px 10px rgb(0,255,0),  /*右边阴影*/
+            0px 10px 10px rgb(255,0,255);/*下边阴影*/ }
