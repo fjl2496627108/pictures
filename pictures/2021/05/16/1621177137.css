@@ -1,7 +1,0 @@
-html[data-night='night'] body {--box-shadow:-10px 0px 10px rgb(242,192,86),   /*左边阴影*/
-            0px -10px 10px rgb(72,209,204),  /*上边阴影*/
-            10px 0px 10px rgb(0,255,0),  /*右边阴影*/
-            0px 10px 10px rgb(255,0,255);/*下边阴影*/ }
-.joe_header__above {border-radius:30px 30px 30px 30px}
-.joe_header__slideout-author .avatar {box-shadow:2px 2px 2px 2px rgb(66 226 67 / 22%)}
-.joe_header__slideout.active {background-image: url(https://api.ixiaowai.cn/mcapi/mcapi.php);}
