@@ -1,0 +1,225 @@
+/* reset */
+html,
+body{
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  overflow-y: auto; 
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  background: rgba(255, 255, 255, 1);
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC',
+    'Hiragino Sans GB', 'Heiti SC', 'Microsoft YaHei', 'WenQuanYi Micro Hei',
+    sans-serif;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:link,
+a:focus {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  background: none;
+  text-decoration: none;
+}
+
+input {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.clearfix:after {
+  content: '.';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+input {
+  border: none;
+  outline: none !important;
+}
+
+#__vconsole .vc-switch {
+  position: absolute !important;
+  right: 100px !important;
+  bottom: 100px !important;
+}
+
+.open-app {
+  -webkit-box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+}
+
+/* common */
+.border-1px {
+  border-bottom: 1px solid #e1e2e3;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  .border-1px {
+    border-bottom: 0.5px solid #e1e2e3;
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 3) {
+  .border-1px {
+    border-bottom: 0.333333px solid #e1e2e3;
+  }
+}
+
+.border-all-1px {
+  border: 1px solid #e1e2e3;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  .border-all-1px {
+    border: 0.5px solid #e1e2e3;
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 3) {
+  .border-all-1px {
+    border: 0.333333px solid #e1e2e3;
+  }
+}
+
+/* placeholder */
+input::-webkit-input-placeholder {
+  color: #bbc2c8;
+}
+input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #bbc2c8;
+}
+input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #bbc2c8;
+}
+input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #bbc2c8;
+}
